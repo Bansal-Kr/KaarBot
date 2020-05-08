@@ -1,6 +1,7 @@
 //importing libraries
 const Discord = require('discord.js');
 const client = new Discord.Client();
+var ga = Math.random();
 
 
 //event listener when a user connects to the server 
@@ -12,6 +13,14 @@ client.on('message',msg=>{
 if(msg.content=='ping'){
 msg.reply('pong');
 }
+  //second funtion
+  if(msg.content=='gae'){
+  ga=Math.random();
+  ga=ga%10;
+  switch(ga){
+    case 1: msg.reply('me gae');
+  break;
+    default: msg.reply('u gae');}}
 });
 
 client.login(process.env.Bot_Token);
