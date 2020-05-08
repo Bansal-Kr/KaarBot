@@ -1,0 +1,14 @@
+{
+  "name": "kaar",
+  "version": "1.0.0",
+  "description": "this is one of my free time experiments ",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "cRaZz",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
