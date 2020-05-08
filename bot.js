@@ -19,6 +19,8 @@ msg.reply('pong');
   switch(ga){
    case 1: msg.reply('me gae');
   break;
+       case 2: msg.reply('u dumb');
+  break;
    default: msg.reply('u gae');}
   }
 });
