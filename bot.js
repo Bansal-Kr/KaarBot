@@ -15,13 +15,14 @@ msg.reply('pong');
   //second funtion
   if(msg.content=='gae'){
   ga=Math.round(Math.random()*10);
-     msg.reply(ga);
   switch(ga){
    case 1: msg.reply('me gae');
   break;
-       case 2: msg.reply('u dumb');
+  case 2: msg.reply('u dumb');
   break;
-   default: msg.reply('u gae');}
+   case 3: msg.reply('owo gae');
+  break;
+  default: msg.reply('u gae');}
   }
 });
 
