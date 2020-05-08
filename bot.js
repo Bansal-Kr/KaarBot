@@ -15,6 +15,7 @@ msg.reply('pong');
   //second funtion
   if(msg.content=='gae'){
   ga=Math.round(Math.random()*10);
+     msg.reply(ga);
   switch(ga){
    case 1: msg.reply('me gae');
   break;
